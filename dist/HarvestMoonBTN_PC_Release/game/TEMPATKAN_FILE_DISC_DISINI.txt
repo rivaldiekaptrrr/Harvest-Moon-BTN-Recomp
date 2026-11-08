@@ -1,0 +1,35 @@
+========================================================================
+[ID] PETUNJUK PENEMPATAN FILE DISC (HARVEST MOON: BACK TO NATURE)
+========================================================================
+Untuk memainkan port PC ini secara legal, Anda perlu menyediakan salinan
+disc image (dump) Harvest Moon: Back to Nature versi USA milik Anda sendiri.
+
+Tempatkan file berikut ke dalam folder ini (game\):
+1. Harvest Moon - Back to Nature (USA).cue
+2. Harvest Moon - Back to Nature (USA).bin
+
+Atau file terkompresi CHD:
+- Harvest Moon - Back to Nature (USA).chd
+(Jika menggunakan format .chd, ubah baris `disc = "..."` pada file `game.toml` menjadi:
+ disc = "game/Harvest Moon - Back to Nature (USA).chd")
+
+Setelah file ditaruh di folder ini, jalankan "Play_Harvest_Moon_PC.bat"!
+
+========================================================================
+[EN] INSTRUCTIONS FOR DISC IMAGE PLACEMENT
+========================================================================
+To legally play this native PC port, you need to provide your own dumped
+disc image of Harvest Moon: Back to Nature (USA version).
+
+Place the following files in this folder (game\):
+1. Harvest Moon - Back to Nature (USA).cue
+2. Harvest Moon - Back to Nature (USA).bin
+
+Or compressed CHD format:
+- Harvest Moon - Back to Nature (USA).chd
+(If using .chd, edit `game.toml` line:
+ disc = "game/Harvest Moon - Back to Nature (USA).chd")
+
+Once files are placed here, double-click "Play_Harvest_Moon_PC.bat" to play!
+========================================================================
+

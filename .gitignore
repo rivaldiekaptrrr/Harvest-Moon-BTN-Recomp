@@ -1,0 +1,121 @@
+# ==============================================================================
+# Git Ignore - Harvest Moon: Back to Nature (PC Port)
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Game Disc Images & Proprietary ROMs (Legal & Clean-Room Requirement)
+# JANGAN PERNAH menyertakan file ROM/Disc berhak cipta milik Sony/Natsume ke Git.
+# ------------------------------------------------------------------------------
+*.bin
+*.cue
+*.iso
+*.chd
+*.img
+*.mdf
+*.mds
+*.pbp
+*.ecm
+*.toc
+*.sub
+*.ccd
+
+# Pengecualian: OpenBIOS binary asli (berlisensi MIT, bukan milik Sony)
+!bios/openbios.bin
+!dist/HarvestMoonBTN_PC_Release/bios/openbios.bin
+!recomp_project/bios/openbios.bin
+
+# Direktori dump aset ekstraksi disc PS1
+extracted/
+
+# ------------------------------------------------------------------------------
+# 2. Build Outputs & Intermediate Files (CMake, MSVC, C# .NET)
+# ------------------------------------------------------------------------------
+build/
+recomp_project/build/
+dist/staging_clean/
+launcher_src/bin/
+launcher_src/obj/
+
+# File objek dan biner perantara
+*.obj
+*.o
+*.lib
+*.a
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.tlog
+*.lastcodeanalysissucceeded
+*.VC.db
+*.VC.opendb
+
+# Release Zip Package (unggah melalui GitHub Releases, bukan di-commit ke repo)
+dist/*.zip
+*.zip
+*.7z
+*.rar
+*.tar.gz
+
+# ------------------------------------------------------------------------------
+# 3. Saves, Memory Cards & Runtime State (Personal User Data)
+# ------------------------------------------------------------------------------
+*.mcd
+*.mcr
+*.srm
+*.pst
+*.state*
+*.sav
+card1.mcd
+card2.mcd
+memcards/
+*.pst_bios_isolated
+
+# Diagnostic dumps & runtime trace reports
+*.log
+psx_freeze_dump_*.json
+psx_freeze_heartbeat.json
+psx_last_run_report.json
+overlay_captures.json
+overlay_captures.json.d/
+
+# ------------------------------------------------------------------------------
+# 4. External Downloaded Tools & SDKs
+# ------------------------------------------------------------------------------
+tools/psxrecomp/
+tools/psxrecomp-src/
+tools/bin/
+
+# ------------------------------------------------------------------------------
+# 5. IDE, Editors, and OS-Specific Files
+# ------------------------------------------------------------------------------
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+.idea/
+*.swp
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS / Linux
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# ------------------------------------------------------------------------------
+# 6. Python Caches & Environments
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/

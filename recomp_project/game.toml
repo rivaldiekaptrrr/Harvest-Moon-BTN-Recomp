@@ -1,0 +1,32 @@
+[game]
+name = "HarvestMoonBTN"
+id = "SLUS-01115"
+exe = "input/SLUS_011.15"
+disc = "game/Harvest_Moon_Indo_Andro.iso"
+load_address = "0x80010000"
+entry_pc = "0x80011278"
+text_size = "0x4F000"
+stack_base = "0x801FFFF0"
+
+[recompiler]
+seeds = "seeds/functions.txt"
+bios_config = "psxrecomp/bios/OpenBIOS.toml"
+strict = true
+out_dir = "generated"
+
+[runtime]
+window_title = "Harvest Moon: Back to Nature (PC Port)"
+language = "id"
+bios_hle = false
+fast_boot = true
+disc_speed = "instant"
+overlay_cache = true
+
+[controller]
+p1_device = "auto"
+p1_mode = "analog"
+deadzone = 2621
+
+[video]
+renderer = "opengl"
+geometry_correction = true

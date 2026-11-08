@@ -1,0 +1,20 @@
+# Harvest Moon: Back to Nature - Player Settings
+[localization]
+language = "id"
+
+[video]
+fullscreen = 1
+window_width = 1280
+renderer = 1
+vsync = 1
+aspect_num = 16
+aspect_den = 9
+low_latency_input = true
+render_thread = true
+present_thread = true
+fps_meter = true
+
+[controller]
+p1_device = "auto"
+p1_mode = "analog"
+deadzone = 2293

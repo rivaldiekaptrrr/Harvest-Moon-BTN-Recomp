@@ -1,0 +1,465 @@
+# ==============================================================================
+# Harvest Moon: Back to Nature (USA / SLUS-01115)
+# Terjemahan Bahasa Indonesia (Native Translation Table)
+# Format: psxrecomp text_xlate schema
+# ==============================================================================
+
+[localization]
+default_language = "id"
+
+[[entry]]
+src_hex = "870ff70ff40f160024002b0022002e002c002400fd0f33002e00fd0f8e000c0028002d002400310020002b00fd0f13002e0036002d006c008e00feff08005400fd0f0c00200038002e003100fd0f130027002e002c00200032006c00fc0ffb0ffeff870ff70ff40f08005400fd0f26002e0028002d002600fd0f33002e00fd0f200032002a00fd0f38002e003400fd0f2000fd0f2d0034002c00210024003100feff2e002500fd0f3000340024003200330028002e002d0032008c00fd0f32002e00fd0f2f002b002400200032002400fd0f20002d003200360024003100feff3300270024002c006c00"
+en = "<0F87><0FF7><0FF4>Welcome to \"Mineral Town.\"\nI'm Mayor Thomas.<0FFC><0FFB>\n<0F87><0FF7><0FF4>I'm going to ask you a number\nof questions, so please answer\nthem."
+id = "<0F87><0FF7><0FF4>Selamat datang di \"Mineral Town.\"\nSaya Walikota Thomas.<0FFC><0FFB>\n<0F87><0FF7><0FF4>Saya ingin bertanya beberapa\nhal, tolong dijawab ya."
+term = "ffff"
+
+[[entry]]
+src_hex = "f30f08003200fd0f3300270028003200fd0f2d0020002c002400fd0f0e000a006200"
+en = "<0FF3>Is this name OK?"
+id = "<0FF3>Nama ini sudah benar?"
+term = "ffff"
+
+[[entry]]
+src_hex = "f30f08003200fd0f3300270028003200fd0f0e000a006200"
+en = "<0FF3>Is this OK?"
+id = "<0FF3>Apakah sudah benar?"
+term = "ffff"
+
+[[entry]]
+src_hex = "fa0ffefffd0f1300270028003200fd0f28003200fd0f0e000a00fefffd0f130031003800fd0f20002600200028002d00"
+en = "<0FFA>\n This is OK\n Try again"
+id = "<0FFA>\n Sudah benar\n Coba lagi"
+term = "ffff"
+
+[[entry]]
+src_hex = "f30f0300fd0f01003400330033002e002d006600fd0f0c002e0035002400fd0f02003400310032002e003100feff6e00fd0f01003400330033002e002d006600fd0f08002d002f0034003300feff6d00fd0f01003400330033002e002d006600fd0f0100200022002a00fd0ffeff12003300200031003300fd0ffd0ffd0f6600fd0f120024002b00240022003300fd0f0d0020002c002400fd0f"
+en = "<0FF3>D Button<0066> Move Cursor\n<006E> Button<0066> Input\n<006D> Button<0066> Back \nStart   <0066> Select Name "
+id = "<0FF3>Tombol Arah<0066> Pindah Kursor\n<006E> Tombol<0066> Masukkan\n<006D> Tombol<0066> Kembali\nStart   <0066> Pilih Nama "
+term = "ffff"
+
+[[entry]]
+src_hex = "f30f0300fd0f21003400330033002e002d006600fd0f0c002e0035002400fd0f330027002400fd0f22003400310032002e003100feff6e00fd0f21003400330033002e002d006600fd0f120024002b00240022003300feff6d00fd0f21003400330033002e002d006600fd0f020020002d00220024002b00"
+en = "<0FF3>D button<0066> Move the cursor\n<006E> button<0066> Select\n<006D> button<0066> Cancel"
+id = "<0FF3>Tombol Arah<0066> Pindah kursor\n<006E> Tombol<0066> Pilih\n<006D> Tombol<0066> Batal"
+term = "ffff"
+
+[[entry]]
+src_hex = "f30f0300fd0f01003400330033002e002d006600fd0f0c002e0035002400fd0f02003400310032002e003100feff6e00fd0f01003400330033002e002d006600fd0f040037002f002b00200028002d00fd0f0000310024002000feff6d00fd0f01003400330033002e002d006600fd0f02002b002e0032002400feff12003300200031003300fd0ffd0ffd0f6600fd0f1500280024003600fd0f0500200031002c00"
+en = "<0FF3>D Button<0066> Move Cursor\n<006E> Button<0066> Explain Area\n<006D> Button<0066> Close\nStart   <0066> View Farm"
+id = "<0FF3>Tombol Arah<0066> Pindah Kursor\n<006E> Tombol<0066> Info Area\n<006D> Tombol<0066> Tutup\nStart   <0066> Lihat Kebun"
+term = "ffff"
+
+[[entry]]
+src_hex = "f30f0300fd0f21003400330033002e002d006600fd0f0c002e0035002400fd0f330027002400fd0f22003400310032002e003100feff6e00fd0f21003400330033002e002d006600fd0f120024002b00240022003300feff6d00fd0f21003400330033002e002d006600fd0f02002b002e0032002400fd0f360028002d0023002e003600"
+en = "<0FF3>D button<0066> Move the cursor\n<006E> button<0066> Select\n<006D> button<0066> Close window"
+id = "<0FF3>Tombol arah<0066> Pindah kursor\n<006E> tombol<0066> Pilih\n<006D> tombol<0066> Tutup jendela"
+term = "ffff"
+
+[[entry]]
+src_hex = "f30f0f00310024002f002000310028002d002600fd0f33002e00fd0f22002e002e002a006c00feff0f002b002400200032002400fd0f36002000280033006c00"
+en = "<0FF3>Preparing to cook.\nPlease wait."
+id = "<0FF3>Bersiap memasak.\nMohon tunggu."
+term = "ffff"
+
+[[entry]]
+src_hex = "fa0ffefffd0f02002e002e002a00fd0f2300280032002700fefffd0f03002e00fd0f2d002e003300fd0f22002e002e002a00"
+en = "<0FFA>\n Cook dish\n Do not cook"
+id = "<0FFA>\n Masak hidangan\n Jangan masak"
+term = "ffff"
+
+[[entry]]
+src_hex = "180024003200"
+en = "Yes"
+id = "Ya"
+term = "ffff"
+
+[[entry]]
+src_hex = "0d002e00"
+en = "No"
+id = "Tidak"
+term = "ffff"
+
+[[entry]]
+src_hex = "130020002b002a00"
+en = "Talk"
+id = "Bicara"
+term = "ffff"
+
+[[entry]]
+src_hex = "02002700240022002a00"
+en = "Check"
+id = "Periksa"
+term = "ffff"
+
+[[entry]]
+src_hex = "040020003300"
+en = "Eat"
+id = "Makan"
+term = "ffff"
+
+[[entry]]
+src_hex = "1300270031002e003600"
+en = "Throw"
+id = "Lempar"
+term = "ffff"
+
+[[entry]]
+src_hex = "0f0034003300fd0f2000360020003800"
+en = "Put away"
+id = "Simpan"
+term = "ffff"
+
+[[entry]]
+src_hex = "130020002a002400fd0f2e0034003300"
+en = "Take out"
+id = "Keluarkan"
+term = "ffff"
+
+[[entry]]
+src_hex = "0500200031002c00"
+en = "Farm"
+id = "Kebun"
+term = "ffff"
+
+[[entry]]
+src_hex = "120034002f00240031002c00200031002a0024003300"
+en = "Supermarket"
+id = "Supermarket"
+term = "ffff"
+
+[[entry]]
+src_hex = "1200200028002100200031002000"
+en = "Saibara"
+id = "Saibara"
+term = "ffff"
+
+[[entry]]
+src_hex = "3200330034002c002f003200"
+en = "stumps"
+id = "tunggul kayu"
+term = "ffff"
+
+[[entry]]
+src_hex = "2b0034002c00210024003100"
+en = "lumber"
+id = "kayu"
+term = "ffff"
+
+[[entry]]
+src_hex = "20002d0028002c0020002b003200"
+en = "animals"
+id = "hewan-hewan"
+term = "ffff"
+
+[[entry]]
+src_hex = "2200200031002400250034002b00"
+en = "careful"
+id = "hati-hati"
+term = "ffff"
+
+[[entry]]
+src_hex = "36002800320024002b003800"
+en = "wisely"
+id = "dengan bijak"
+term = "ffff"
+
+[[entry]]
+src_hex = "07002800"
+en = "Hi"
+id = "Halo"
+term = "ffff"
+
+[[entry]]
+src_hex = "070024002b002b002e00"
+en = "Hello"
+id = "Halo"
+term = "ffff"
+
+[[entry]]
+src_hex = "06002e002e002300fd0f2c002e0031002d0028002d002600"
+en = "Good morning"
+id = "Selamat pagi"
+term = "ffff"
+
+[[entry]]
+src_hex = "06002e002e002300fd0f200025003300240031002d002e002e002d00"
+en = "Good afternoon"
+id = "Selamat siang"
+term = "ffff"
+
+[[entry]]
+src_hex = "06002e002e002300fd0f2400350024002d0028002d002600"
+en = "Good evening"
+id = "Selamat malam"
+term = "ffff"
+
+[[entry]]
+src_hex = "1300270020002d002a00fd0f38002e003400"
+en = "Thank you"
+id = "Terima kasih"
+term = "ffff"
+
+[[entry]]
+src_hex = "1300270020002d002a003200"
+en = "Thanks"
+id = "Makasih"
+term = "ffff"
+
+[[entry]]
+src_hex = "160024002b0022002e002c002400"
+en = "Welcome"
+id = "Selamat datang"
+term = "ffff"
+
+[[entry]]
+src_hex = "1600270020003300fd0f220020002d00fd0f0800fd0f23002e00fd0f25002e003100fd0f38002e0034006200"
+en = "What can I do for you?"
+id = "Ada yang bisa kubantu?"
+term = "ffff"
+
+[[entry]]
+src_hex = "130020002b002a00fd0f200021002e0034003300fd0f2f002000310033006900330028002c002400fd0f29002e0021006c00"
+en = "Talk about part-time job."
+id = "Bicara pekerjaan paruh waktu."
+term = "ffff"
+
+[[entry]]
+src_hex = "03002e002d0051003300fd0f330020002b002a00fd0f200021002e0034003300fd0f2f002000310033006900330028002c002400fd0f29002e0021006c00"
+en = "Don't talk about part-time job."
+id = "Jangan bicara pekerjaan paruh waktu."
+term = "ffff"
+
+[[entry]]
+src_hex = "12002f00310028002d002600"
+en = "Spring"
+id = "Musim Semi"
+term = "ffff"
+
+[[entry]]
+src_hex = "120034002c002c0024003100"
+en = "Summer"
+id = "Musim Panas"
+term = "ffff"
+
+[[entry]]
+src_hex = "050020002b002b00"
+en = "Fall"
+id = "Musim Gugur"
+term = "ffff"
+
+[[entry]]
+src_hex = "160028002d00330024003100"
+en = "Winter"
+id = "Musim Dingin"
+term = "ffff"
+
+[[entry]]
+src_hex = "1300340031002d0028002f00"
+en = "Turnip"
+id = "Lobak"
+term = "ffff"
+
+[[entry]]
+src_hex = "0f002e003300200033002e00"
+en = "Potato"
+id = "Kentang"
+term = "ffff"
+
+[[entry]]
+src_hex = "02003400220034002c00210024003100"
+en = "Cucumber"
+id = "Mentimun"
+term = "ffff"
+
+[[entry]]
+src_hex = "1200330031002000360021002400310031003800"
+en = "Strawberry"
+id = "Stroberi"
+term = "ffff"
+
+[[entry]]
+src_hex = "0200200021002100200026002400"
+en = "Cabbage"
+id = "Kubis"
+term = "ffff"
+
+[[entry]]
+src_hex = "13002e002c00200033002e00"
+en = "Tomato"
+id = "Tomat"
+term = "ffff"
+
+[[entry]]
+src_hex = "02002e0031002d00"
+en = "Corn"
+id = "Jagung"
+term = "ffff"
+
+[[entry]]
+src_hex = "0e002d0028002e002d00"
+en = "Onion"
+id = "Bawang"
+term = "ffff"
+
+[[entry]]
+src_hex = "0f0034002c002f002a0028002d00"
+en = "Pumpkin"
+id = "Labu"
+term = "ffff"
+
+[[entry]]
+src_hex = "0f0028002d00240020002f002f002b002400"
+en = "Pineapple"
+id = "Nanas"
+term = "ffff"
+
+[[entry]]
+src_hex = "0400260026002f002b0020002d003300"
+en = "Eggplant"
+id = "Terong"
+term = "ffff"
+
+[[entry]]
+src_hex = "02002000310031002e003300"
+en = "Carrot"
+id = "Wortel"
+term = "ffff"
+
+[[entry]]
+src_hex = "12003600240024003300fd0f0f002e003300200033002e00"
+en = "Sweet Potato"
+id = "Ubi Manis"
+term = "ffff"
+
+[[entry]]
+src_hex = "12002f0028002d00200022002700"
+en = "Spinach"
+id = "Bayam"
+term = "ffff"
+
+[[entry]]
+src_hex = "06003100240024002d00fd0f0f0024002f002f0024003100"
+en = "Green Pepper"
+id = "Paprika Hijau"
+term = "ffff"
+
+[[entry]]
+src_hex = "07002e002400"
+en = "Hoe"
+id = "Cangkul"
+term = "ffff"
+
+[[entry]]
+src_hex = "1200280022002a002b002400"
+en = "Sickle"
+id = "Sabit"
+term = "ffff"
+
+[[entry]]
+src_hex = "1600200033002400310028002d002600fd0f020020002d00"
+en = "Watering Can"
+id = "Penyiram"
+term = "ffff"
+
+[[entry]]
+src_hex = "000037002400"
+en = "Axe"
+id = "Kapak"
+term = "ffff"
+
+[[entry]]
+src_hex = "070020002c002c0024003100"
+en = "Hammer"
+id = "Palu"
+term = "ffff"
+
+[[entry]]
+src_hex = "050028003200270028002d002600fd0f11002e002300"
+en = "Fishing Rod"
+id = "Pancingan"
+term = "ffff"
+
+[[entry]]
+src_hex = "01003100340032002700"
+en = "Brush"
+id = "Sikat"
+term = "ffff"
+
+[[entry]]
+src_hex = "0c0028002b002a0024003100"
+en = "Milker"
+id = "Pemerah Susu"
+term = "ffff"
+
+[[entry]]
+src_hex = "02002b0028002f002f00240031003200"
+en = "Clippers"
+id = "Gunting Bulu"
+term = "ffff"
+
+[[entry]]
+src_hex = "010024002b002b00"
+en = "Bell"
+id = "Lonceng"
+term = "ffff"
+
+[[entry]]
+src_hex = "03002e002600"
+en = "Dog"
+id = "Anjing"
+term = "ffff"
+
+[[entry]]
+src_hex = "07002e00310032002400"
+en = "Horse"
+id = "Kuda"
+term = "ffff"
+
+[[entry]]
+src_hex = "02002e003600"
+en = "Cow"
+id = "Sapi"
+term = "ffff"
+
+[[entry]]
+src_hex = "12002700240024002f00"
+en = "Sheep"
+id = "Domba"
+term = "ffff"
+
+[[entry]]
+src_hex = "02002700280022002a0024002d00"
+en = "Chicken"
+id = "Ayam"
+term = "ffff"
+
+[[entry]]
+src_hex = "040026002600"
+en = "Egg"
+id = "Telur"
+term = "ffff"
+
+[[entry]]
+src_hex = "0c0028002b002a00"
+en = "Milk"
+id = "Susu"
+term = "ffff"
+
+[[entry]]
+src_hex = "16002e002e002b00"
+en = "Wool"
+id = "Bulu Domba"
+term = "ffff"
+
+[[entry]]
+src_hex = "0c002e002d0024003800"
+en = "Money"
+id = "Uang"
+term = "ffff"
+
+[[entry]]
+src_hex = "06002e002b002300"
+en = "Gold"
+id = "G"
+term = "ffff"
+

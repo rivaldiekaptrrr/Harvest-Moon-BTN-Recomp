@@ -1,0 +1,111 @@
+================================================================================
+Harvest Moon: Back to Nature - Native PC Port (Clean Release)
+================================================================================
+Ini adalah port PC native dari game legendaris "Harvest Moon: Back to Nature" (PS1)
+yang direkompilasi secara statis (Static Recompilation) langsung ke arsitektur x64 PC.
+
+Game ini BUKAN berjalan di atas emulator tradisional, melainkan berjalan secara
+native dengan performa tinggi, latency input sangat rendah, dan konsumsi memori ringan.
+
+--------------------------------------------------------------------------------
+CARA MEMULAI PERMAINAN
+--------------------------------------------------------------------------------
+1. Siapkan file disc image Harvest Moon: Back to Nature (USA) milik Anda:
+   - "Harvest Moon - Back to Nature (USA).cue"
+   - "Harvest Moon - Back to Nature (USA).bin"
+   (atau file terkompresi .chd)
+
+2. Pindahkan kedua file tersebut ke dalam folder:
+   "game\"
+
+3. Klik ganda file:
+   "Play_Harvest_Moon_PC.bat"
+   (atau langsung jalankan "HarvestMoonBTN_Launcher.exe")
+
+4. Menu Graphical Launcher akan muncul. Di sini Anda dapat mengatur:
+   - Pilihan Bahasa (Bahasa Indonesia dengan subtitle & menu, atau English asli)
+   - Mode Layar (Windowed, Borderless Fullscreen, Exclusive Fullscreen)
+   - Resolusi Layar (HD, Full HD, 2K, 4K) & Aspek Rasio (4:3, 16:9, 21:9)
+   - Target FPS (30, 60, 120, 144, 240 FPS) & V-Sync
+   - Kontroler (Otomatis Xbox/Bluetooth X3, Mode Analog/Digital, Deadzone)
+   - Tombol "Buka Folder Save" untuk mengakses kartu memori (card1.mcd)
+   Lalu klik "▶ MAINKAN GAME" untuk mulai bermain!
+
+--------------------------------------------------------------------------------
+KONTROL GAMEPAD & KEYBOARD
+--------------------------------------------------------------------------------
+Gamepad modern (Xbox Controller, Bluetooth X3, DualShock/DualSense) akan otomatis
+terdeteksi tanpa perlu software tambahan (DS4Windows, JoyToKey, dsb.).
+
+Default Kontrol Gamepad (Layout Xbox / Generic):
+- D-Pad & Left Stick : Bergerak / Navigasi Menu
+- Tombol A           : Tombol Silang [X] (Ambil / Bicara / Konfirmasi)
+- Tombol B           : Tombol Lingkaran [O] (Tahan untuk Lari / Batal)
+- Tombol X           : Tombol Kotak [ ] (Gunakan Alat seperti Cangkul/Sabit/Penyiram)
+- Tombol Y           : Tombol Segitiga [^] (Buka Ransel / Tas)
+- Tombol LB          : Tombol L1 (Siul Panggil Anjing)
+- Tombol RB          : Tombol R1 (Ganti Alat Aktif)
+- Tombol LT          : Tombol L2 (Siul Panggil Kuda)
+- Tombol RT          : Tombol R2 (Akses Cepat Ransel)
+- Tombol Start       : Tombol Start (Menu Pause & Status Perkebunan)
+- Tombol Back/Select : Tombol Select (Buka Peta Desa / Kebun)
+
+Default Kontrol Keyboard (jika tidak memakai gamepad):
+- Panah (Arrow Keys) : Bergerak / Navigasi
+- Tombol X           : Silang [X]
+- Tombol S           : Lingkaran [O]
+- Tombol Z           : Kotak [ ]
+- Tombol A           : Segitiga [^]
+- Tombol Q           : L1
+- Tombol W           : R1
+- Tombol E           : L2
+- Tombol R           : R2
+- Tombol Enter       : Start
+- Tombol Right Shift : Select
+
+* Anda dapat mengubah pemetaan kontroler di file "input.ini" atau keyboard di "keybinds.ini".
+
+--------------------------------------------------------------------------------
+CARA KELUAR DARI PERMAINAN (USER-FRIENDLY EXIT)
+--------------------------------------------------------------------------------
+Saat sedang bermain, Anda dapat keluar kapan saja dengan cara yang sangat mudah:
+
+1. DARI GAMEPAD / STIK (Tanpa perlu menyentuh keyboard):
+   • Tekan tombol "Select (Back) + Start" secara bersamaan, ATAU
+   • Tekan tombol "Xbox Guide / Home" di tengah kontroler.
+   Kotak dialog konfirmasi akan muncul di layar. Anda bisa pilih "Ya, Keluar"
+   atau "Batal" jika tidak sengaja tertekan.
+
+2. DARI KEYBOARD:
+   • Cukup tekan tombol "ESC" (Escape) pada keyboard.
+   Kotak dialog konfirmasi akan langsung muncul.
+
+3. CARA STANDAR WINDOWS:
+   • Klik tombol silang [X] di pojok kanan atas jendela game, ATAU
+   • Tekan kombinasi tombol Alt + F4.
+
+* PENTING: Selalu simpan (Save) progres pertanian Anda di Buku Harian (Diary)
+  di samping tempat tidur rumah Anda sebelum keluar agar data hari ini tidak hilang!
+
+--------------------------------------------------------------------------------
+MODE TERJEMAHAN & SUBTITLE BAHASA INDONESIA
+--------------------------------------------------------------------------------
+Game ini dilengkapi dengan fitur Native Runtime Translation Hook:
+- Terjemahan berjalan secara instan dan native tanpa merusak file disc asli (.bin/.cue).
+- Teks dialog, menu, nama tempat, dan nama barang diterjemahkan ke Bahasa Indonesia.
+- File kamus terjemahan tersimpan secara rapi dan terstruktur di:
+  "translations/harvest_moon_id.toml"
+- Anda dapat menambah atau menyesuaikan kata terjemahan sendiri dengan membuka file
+  TOML tersebut menggunakan teks editor apa saja (Notepad, dsb.).
+- Jika ingin beralih kembali ke teks bahasa Inggris asli, Anda cukup memilih opsi
+  "English" pada Launcher.
+
+--------------------------------------------------------------------------------
+CATATAN HUKUM / LEGAL NOTICE
+--------------------------------------------------------------------------------
+Paket rilis ini TIDAK memuat aset grafis, audio, atau ROM berhak cipta milik
+Sony Interactive Entertainment atau Marvelous / Natsume. Paket ini menggunakan
+OpenBIOS (berlisensi MIT) dan executable native hasil static recompilation.
+Pengguna wajib menyediakan file game disc legal mereka sendiri.
+================================================================================
+
